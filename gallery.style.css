@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	color: whitesmoke;
+	transition: .5s ease;
+}
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(earth.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-right: 5%;
+	padding-left: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 190px;
+	height: 30px;
+	cursor: pointer;
+	position: fixed;
+}
+nav{
+	position: fixed;
+	flex: 1;
+	padding-left: 850px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+nav ul li a{
+	letter-spacing: 0px;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 20px;
+}
+.gallery{
+	font-size: 28px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.tour:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.about:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.account:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.home:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.content{
+	margin-left: 29%;
+	margin-top: 20%;
+}
+.content h1{
+	font-size: 60px;
+	color: whitesmoke;
+}
+.content p{
+	font-size: 22px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: whitesmoke;
+}
+.btn :hover{
+	font-size: 20px;
+	/*background: whitesmoke;*/
+	backdrop-filter: blur(17px);
+}
+.links{
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -70px;
+	bottom: 150px;
+	position: fixed;
+	
+}
+.links a{
+	text-decoration: none;
+	color: whitesmoke;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.deeplink:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.mata:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.unreal:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.container{
+	width: 100%;
+	height: 350vh;
+	background: linear-gradient(rgba(16,11,5,255),rgba(3,2,0,255),rgba(3,2,0,255),rgba(3,2,0,255));
+}
+.row{
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+.col{
+	flex-basis: 40%;
+	margin-top: 700px;
+	margin-left: 15%;
+}
+h2{
+	font-size: 60px;
+}
+#red{
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 15px;
+}
+button{
+	height: 50px;
+	width: 190px;
+	margin-top: 20px;
+	margin-right: 30px;
+	background: transparent;
+	font-size: 18px;
+	color: whitesmoke;
+	border-radius: 50px;
+}
+.btn :hover{
+	font-size: 20px;
+	/*background: whitesmoke;*/
+	backdrop-filter: blur(17px);
+	cursor: pointer;
+}
+.card{
+	height: 250px;
+	width: 200px;
+	display: inline-block;
+	border-radius: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 13px;
+	color: darkgrey;
+}
+.card1{
+	background-image: url(mars4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card2{
+	background-image: url(mars2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card3{
+	background-image: url(mars3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card4{
+	background-image: url(mars1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.row2{
+	margin-top: 550px;
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+.card5{
+	background-image: url(moon1.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.card6{
+	background-image: url(moon2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card7{
+	background-image: url(moon3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card8{
+	background-image: url(moon4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.row3{
+	margin-top: 550px;
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+.card9{
+	background-image: url(deepspace1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card10{
+	background-image: url(deepspace2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card11{
+	background-image: url(deepspace3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card12{
+	background-image: url(deepspace4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.row4{
+	margin-top: 550px;
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+.card13{
+	background-image: url(liftup1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card14{
+	background-image: url(liftup2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card15{
+	background-image: url(liftup3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.card16{
+	background-image: url(liftup4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+

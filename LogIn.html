@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="tab_logo.png">
+	<link rel="stylesheet" type="text/css" href="login.style.css">
+	<title>
+		Space Reach
+	</title>
+</head>
+<body>
+	<div class="main">
+		<div class="navbar">
+			<img src="Space_Age_logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html" class="home">Home</a></li>
+					<li><a href="about.html" class="about">About</a></li>
+					<li><a href="gallery.html" class="gallery">Gallery</a></li>
+					<li><a href="tour.html" class="tour">Tour</a></li>
+					<li><a href="LogIn.html" class="account">Account</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" id="admin1" onclick="admin()">Admin</button>
+				<button type="button" class="toggle-btn" id="user1" onclick="user()">User</button>
+			</div>
+			<form id="admin"class="input-group" action="dashboard.html">
+				<input type="text" class="input-field" name="Admin Id" placeholder="Admin ID" required>
+				<input type="password" class="input-field" name="Password" placeholder="Password" required>
+				<input type="checkbox" class="check-box"><span class="rem">Remember Me</span>
+				<button type="submit" class="submit-btn">Log In</button>
+				<a href="fpass.html" class="f_pass">Forgot Password</a>
+				<a href="joinus.html" class="prob">New Here? Join Us</a>  
+			</form>
+			<form id="user"class="input-group" action="dashboard.html">
+				<input type="text" class="input-field" name="User Id" placeholder="User ID" required>
+				<input type="password" class="input-field" name="Password" placeholder="Password" required>
+				<input type="checkbox" class="check-box"><span>Remamber Me</span>
+				<button type="submit" class="submit-btn">Log In</button>
+				<a href="fpass.html" class="f_pass">Forgot Password</a> 
+				<a href="joinus.html" class="prob">New Here? Join Us</a> 
+			</form>
+		</div>
+		<div class="links">
+			<a href="#" class="mata">Mataverse</a>
+			<a href="#" class="unreal">Unreal</a>
+			<a href="#" class="deeplink">DeepLink</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var x =document.getElementById("admin");
+		var y =document.getElementById("user");
+		var z =document.getElementById("btn");
+		function user() {
+			x.style.left="-400px"
+			y.style.left="50px"
+			z.style.left="110px"
+		}
+		function admin() {
+			x.style.left="50px"
+			y.style.left="450px"
+			z.style.left="0"
+		}
+	</script>
+</body>
+</html>

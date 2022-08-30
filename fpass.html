@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="tab_logo.png">
+	<link rel="stylesheet" type="text/css" href="fpass.style.css">
+	<title>
+		Space Reach
+	</title>
+</head>
+<body>
+	<div class="main">
+		<div class="navbar">
+			<img src="Space_Age_logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html" class="home">Home</a></li>
+					<li><a href="about.html" class="about">About</a></li>
+					<li><a href="gallery.html" class="gallery">Gallery</a></li>
+					<li><a href="tour.html" class="tour">Tour</a></li>
+					<li><a href="LogIn.html" class="account">Account</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="form-box">
+			<h4>Forgot Password</h4>
+			<form action="passchange.html" name="myform" onsubmit="return validateform()">
+				<input type="text" class="input-field" name="Registered Id" placeholder="Registered ID" required>
+				<input type="text" class="input-field" name="otp" placeholder="OTP" required>
+				<div class="btn-box" id="btn">
+					<button type="button" value="sendotp" id="sendotp" onclick="generateOTP()">SEND OTP</button>
+					<button type="submit" value="next" id="next" >NEXT
+					</button>
+				</div>
+			</form>
+		</div>
+		<div class="links">
+			<a href="#" class="mata">Mataverse</a>
+			<a href="#" class="unreal">Unreal</a>
+			<a href="#" class="deeplink">DeepLink</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+			function generateOTP() {
+          
+    // Declare a string variable 
+    // which stores all string
+    var string = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let OTP = '';
+      
+    // Find the length of string
+    var len = string.length;
+    for (let i = 0; i < 6; i++ ) {
+        OTP += string[Math.floor(Math.random() * len)];
+    }
+    xyz=OTP;
+    alert("OTP sent...")
+    alert(xyz)
+	}
+	function validateform(){
+		var otp=document.myform.otp.value;
+		if(otp!=xyz){  
+		  alert("Wrong OTP Please try again");  
+		  return false;  
+		}
+	}  
+
+		
+	</script>
+</body>
+</html>

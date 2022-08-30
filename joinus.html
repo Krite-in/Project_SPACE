@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="tab_logo.png">
+	<link rel="stylesheet" type="text/css" href="joinus.style.css">
+	<title>
+		Space Reach
+	</title>
+</head>
+<body>
+	<div class="main">
+		<div class="navbar">
+			<img src="Space_Age_logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html" class="home">Home</a></li>
+					<li><a href="about.html" class="about">About</a></li>
+					<li><a href="gallery.html" class="gallery">Gallery</a></li>
+					<li><a href="tour.html" class="tour">Tour</a></li>
+					<li><a href="LogIn.html" class="account">Account</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="form-box">
+				<h2>SIGN UP</h2>
+				<form name="myform" method="post" action="LogIn.html" onsubmit="return validateform()" >
+					<h4></h4>
+					<input type="text"  placeholder="Name" name="name" required>
+					<input type="email"  placeholder="Email" name="email" required>
+					<input type="password" name="pass" placeholder="Create password" required>
+					<input type="password" name="conpass" placeholder="Confirm password" required>
+					<p class="check-box">By clicking submit you will agree to <a id="next4">Terms & Conditions</a><sub id="imp">*</sub></p>
+					<div class="btn-box" id="btn">
+						<button type="submit" value="submit">SUBMIT</button>
+					</div>
+				</form>
+			<p id="conti">Sign Up with <a href="LogIn.html" id="dpp">DeepLink</a></p>
+		</div>
+		<div class="links">
+			<a href="#" class="mata">Mataverse</a>
+			<a href="#" class="unreal">Unreal</a>
+			<a href="#" class="deeplink">DeepLink</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+			function validateform(){  
+				var name=document.myform.name.value;
+				var password=document.myform.pass.value;
+				var conpass=document.myform.conpass.value;
+				var email = document.myform.email.value;
+    			var combination = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if (name==" "){  
+				  alert("Name can't be blank");  
+				  return false;  
+				}else if (!combination.test(email)) {
+				    alert('Please provide a valid email address');
+				    email.focus;
+				    return false;
+ 				}else if(password.length<6){  
+				  alert("Password must be at least 6 characters long.");  
+				  return false;  
+				}else if(password!=conpass){  
+				  alert("Password not matched");  
+				  return false;  
+				}
+			}  
+	</script>
+</body>
+</html>
+
+    

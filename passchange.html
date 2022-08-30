@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="tab_logo.png">
+	<link rel="stylesheet" type="text/css" href="passchange.style.css">
+	<title>
+		Space Reach
+	</title>
+</head>
+<body>
+	<div class="main">
+		<div class="navbar">
+			<img src="Space_Age_logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html" class="home">Home</a></li>
+					<li><a href="about.html" class="about">About</a></li>
+					<li><a href="gallery.html" class="gallery">Gallery</a></li>
+					<li><a href="tour.html" class="tour">Tour</a></li>
+					<li><a href="LogIn.html" class="account">Account</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="form-box">
+			<h4>Change Password</h4>
+			<form action="LogIn.html" name="passchange" onsubmit="return validateform()">
+				<input type="password" class="input-field" name="pass" placeholder="Create Paassword" required>
+				<input type="text" class="input-field" name="conpass" placeholder="Confirm Password" required>
+				<div class="btn-box" id="btn">	
+					<button type="Submit" value="Submit" id="Submit">Submit
+					</button>
+				</div>
+			</form>
+		</div>
+		<div class="links">
+			<a href="#" class="mata">Mataverse</a>
+			<a href="#" class="unreal">Unreal</a>
+			<a href="#" class="deeplink">DeepLink</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function validateform(){
+				var password=document.passchange.pass.value;
+				var conpass=document.passchange.conpass.value;
+		if(password!=conpass){  
+				  alert("Password not matched");  
+				  return false;  
+				}else if(password.length<6){  
+				  alert("Password must be at least 6 characters long.");  
+				  return false;
+				}
+			}
+	</script>
+</body>
+</html>

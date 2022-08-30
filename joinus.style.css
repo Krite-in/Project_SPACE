@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	transition: .5s ease;
+}
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-right: 5%;
+	padding-left: 5%;
+	box-sizing: border-box;
+	position: absolute;
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 190px;
+	height: 30px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	padding-left: 590px;	
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+nav ul li a{
+	letter-spacing: 0px;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 20px;
+}
+.account{
+	font-size: 32px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.tour:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.about:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.home:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.gallery:hover{
+	font-size: 21px;
+	color: darkgrey;
+	text-decoration: underline;
+}
+.links{
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -70px;
+	bottom: 150px;
+	
+}
+.links a{
+	text-decoration: none;
+	color: whitesmoke;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.deeplink:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.mata:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.unreal:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.form-box{
+	height: 520px;
+	width: 380px;
+	position: relative;
+	margin: 2% 0 0 70%;
+	background: transparent;
+	color: whitesmoke;
+	border-radius: 30px;
+	padding: 5px;
+	overflow: hidden;
+	backdrop-filter: blur(5px);
+}
+.form-box:hover{
+	transition: .5s;
+	box-shadow: 0 25px 60px #393040;
+	backdrop-filter: blur(20px);
+}
+h2{
+	margin-top: 35px;
+	margin-left: 150px;
+	color: whitesmoke;
+}
+h4{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: whitesmoke;
+}
+.main form{
+	width: 285px;
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	transition: .7s;
+	color: whitesmoke;
+}
+form input{
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+	color: whitesmoke;
+}
+.btn-box{
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+}
+#btn{
+	margin-left: 7px;
+}
+button{
+	width: 110px;
+	height: 35px;
+	margin: 0 10px;
+	background:  #44303C;
+	border-radius: 30px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+.check-box{
+	margin: 30px 0px 30px 0;
+	color: whitesmoke;
+	font-size: 12px;
+}
+#imp{
+	color: red;
+	font-size: 16px;
+}
+a{
+	color: red;
+	cursor: pointer ;
+}
+hr{
+	background-color: whitesmoke;
+	width: 100%;
+	margin-top: 99%;
+}
+#conti{
+	font-size: 20px;
+	margin-top: 105%;
+	text-align: center;
+}
+#dpp{
+	text-decoration: none;
+	color: darkgrey;
+}
+#dpp:hover{
+	text-decoration: underline;
+	font-size: 22px;
+}
