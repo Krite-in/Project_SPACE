@@ -24,6 +24,7 @@
 	margin-left: 10px;
 	display: flex;
 	align-items: center;
+    z-index: 1;
 }
 .logo{
 	width: 190px;
@@ -124,6 +125,37 @@ a button:hover{
 	animation-duration: 5s;
 }
 
+.links{
+	transform: rotate(-90deg);
+	position: fixed;
+	left: -70px;
+	bottom: 150px;
+    z-index: 1;
+}
+.links a{
+	text-decoration: none;
+	color: whitesmoke;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.deeplink:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.mata:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
+.unreal:hover{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 18px;
+	color: darkgrey;
+}
 @keyframes down{
 	0% {
         transform: translateY(0px);
