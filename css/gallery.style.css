@@ -3,12 +3,12 @@
 	padding: 0;
 	font-family: monospace;
 	color: whitesmoke;
-	transition: .5s ease;
+	transition: .5s ease-in-out;
 }
 .main{
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(earth.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(../image/earth.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-right: 5%;
@@ -28,12 +28,10 @@
 	width: 190px;
 	height: 30px;
 	cursor: pointer;
-	position: fixed;
 }
-nav{
-	position: fixed;
+nav ul{
 	flex: 1;
-	padding-left: 850px;
+	margin-left: 640px;	
 }
 nav ul li{
 	display: inline-block;
@@ -47,35 +45,20 @@ nav ul li a{
 	font-size: 20px;
 }
 .gallery{
-	font-size: 28px;
+	font-size: 21px;
 	margin-left: 0px;
 	margin-right: 0px;
 	color: darkgrey;
 	text-decoration: underline;
 }
-.tour:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.about:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.account:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.home:hover{
+nav ul li a:hover{
 	font-size: 21px;
 	color: darkgrey;
 	text-decoration: underline;
 }
 .content{
 	margin-left: 29%;
-	margin-top: 20%;
+	margin-top: 25%;
 }
 .content h1{
 	font-size: 60px;
@@ -160,9 +143,10 @@ button{
 }
 .btn :hover{
 	font-size: 20px;
-	/*background: whitesmoke;*/
-	backdrop-filter: blur(17px);
+	background: rgb(245, 245, 245);
+	color: black;
 	cursor: pointer;
+	border: 50%;
 }
 .card{
 	height: 250px;
@@ -175,22 +159,22 @@ button{
 	color: darkgrey;
 }
 .card1{
-	background-image: url(mars4.jpg);
+	background-image: url(../image/mars1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card2{
-	background-image: url(mars2.jpg);
+	background-image: url(../image/mars2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card3{
-	background-image: url(mars3.jpg);
+	background-image: url(../image/mars3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card4{
-	background-image: url(mars1.jpg);
+	background-image: url(../image/mars1.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -201,22 +185,22 @@ button{
 	align-items: center;
 }
 .card5{
-	background-image: url(moon1.jpeg);
+	background-image: url(../image/moon1.jpeg);
 	background-size: cover;
 	background-position: center;
 }
 .card6{
-	background-image: url(moon2.jpg);
+	background-image: url(../image/moon2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card7{
-	background-image: url(moon3.jpg);
+	background-image: url(../image/moon3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card8{
-	background-image: url(moon4.jpg);
+	background-image: url(../image/moon4.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -227,22 +211,22 @@ button{
 	align-items: center;
 }
 .card9{
-	background-image: url(deepspace1.jpg);
+	background-image: url(../image/deepspace1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card10{
-	background-image: url(deepspace2.jpg);
+	background-image: url(../image/deepspace2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card11{
-	background-image: url(deepspace3.jpg);
+	background-image: url(../image/deepspace3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card12{
-	background-image: url(deepspace4.jpg);
+	background-image: url(../image/deepspace4.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -253,22 +237,22 @@ button{
 	align-items: center;
 }
 .card13{
-	background-image: url(liftup1.jpg);
+	background-image: url(../image/liftup1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card14{
-	background-image: url(liftup2.jpg);
+	background-image: url(../image/liftup2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card15{
-	background-image: url(liftup3.jpg);
+	background-image: url(../image/liftup3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card16{
-	background-image: url(liftup4.jpg);
+	background-image: url(../image/liftup4.jpg);
 	background-size: cover;
 	background-position: center;
 }

@@ -3,16 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/png" href="tab_logo.png">
-	<link rel="stylesheet" type="text/css" href="gallery.style.css">
+	<link rel="shortcut icon" type="image/png" href="image/tab_logo.png">
+	<link rel="stylesheet" type="text/css" href="css/gallery.style.css">
 	<title>
 		Space Age Gallery
 	</title>
 </head>
 <body>
 	<div class="main">
-		<div class="navbar">
-			<img src="Space_Age_logo.png" class="logo">
+		<div class="navbar" id="navbar">
+			<img src="image/Space_Age_logo.png" class="logo">
 			<nav>
 				<ul>
 					<li><a href="index.html" class="home">Home</a></li>
@@ -26,7 +26,6 @@
 		<div class="content">
 				<h1>Views from our most<br>Recent Tour.</h1>
 				<p>Photos are unforgetable and Immortal Memories.</p>
-			</div>
 		</div>
 		<div class="links">
 			<a href="#" class="mata">Mataverse</a>
@@ -112,5 +111,21 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		{
+			var blur_it = document.getElementById("navbar");
+			var lastscroll = window.screenY;
+			window.addEventListener("scroll", () =>{
+			if (lastscroll<window.scrollY){
+				console.log("lastscroll");
+				blur_it.classList.add("navbar--hidden")
+			}
+			else{
+				blur_it.classList.remove("navbar--hidden")
+			}
+			lastscroll = window.screenY;
+			})
+	}
+	</script>
 </body>
 </html>

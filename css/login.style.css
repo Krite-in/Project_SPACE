@@ -7,7 +7,7 @@
 .main{
 	height: 100vh;
 	width: 100%;
-	background-image: url(bg.jpg);
+	background-image: url(../image/bg.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-right: 5%;
@@ -28,9 +28,9 @@
 	height: 30px;
 	cursor: pointer;
 }
-nav{
+nav ul{
 	flex: 1;
-	padding-left: 590px;	
+	margin-left: 640px;	
 }
 nav ul li{
 	display: inline-block;
@@ -43,30 +43,14 @@ nav ul li a{
 	color: whitesmoke;
 	font-size: 20px;
 }
+nav ul li a:hover{
+	font-size: 21px;
+	color: darkgrey;
+}
 .account{
-	font-size: 32px;
+	font-size: 21px;
 	margin-left: 0px;
 	margin-right: 0px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.tour:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.about:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.home:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.gallery:hover{
-	font-size: 21px;
 	color: darkgrey;
 	text-decoration: underline;
 }
@@ -100,9 +84,10 @@ nav ul li a{
 	padding-left: 5px;
 	font-size: 18px;
 	color: darkgrey;
-}.form-box{
-	width: 380px;
+}
+.form-box{
 	height: 480px;
+	width: 380px;
 	position: relative;
 	margin: 2% 0 0 70%;
 	background: transparent;
@@ -110,59 +95,104 @@ nav ul li a{
 	border-radius: 30px;
 	padding: 5px;
 	overflow: hidden;
-	backdrop-filter: blur(5px)
+	backdrop-filter: blur(5px);
 }
 .form-box:hover{
 	transition: .5s;
-	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
-}
-h4{
-	text-align: center;
-	margin-top: 100px;
-	font-size: 20px;
-	color: whitesmoke;
-}
-.main form{
-	width: 285px;
-	position: absolute;
-	top: 180px;
-	left: 50px;
-	transition: .7s;
-	color: whitesmoke;
+	box-shadow: 0 25px 60px #393040;
+	backdrop-filter: blur(20px);
 }
 form input{
-	width: 100%;
-	padding: 10px 5px;
-	margin: 5px 0;
+	color: whitesmoke;
+}
+.button-box{
+	width: 220px;
+	margin: 10% auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #393040;
+	border-radius: 30px;
+	margin-top: 55px;
+	margin-bottom: 35px;
+}
+.toggle-btn{
+	padding: 10px 35px;
+	cursor: pointer;
+	background: transparent;
 	border: 0;
+	outline: none;
+	position: relative;
+	color: whitesmoke;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #44303C ;
+	border-radius: 30px;
+	transition: 0.7s;
+}
+.input-group{
+	top: 155px;
+	position: absolute;
+	width: 280px;
+	transition: .7s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-top: 0;
+	border-left:0;
+	border-right: 0;
 	border-bottom: 1px solid #999;
 	outline: none;
 	background: transparent;
-	color: whitesmoke;
 }
-.btn-box{
-	width: 100%;
-	margin: 50px auto;
-	text-align: center;
-}
-#btn{
-	margin-left: 7px;
-}
-button{
-	width: 110px;
-	height: 35px;
-	margin: 0 10px;
-	margin-top: 30px;
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 10px auto;
 	background:  #44303C;
 	border-radius: 30px;
 	color: white;
 }
-#form2{
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+#rem{
+	color: whitesmoke;
+	font-size: 12px;
+	bottom: 140px;
+	position: absolute;
+}
+#admin{
+	left: 50px;
+}
+#user{
 	left: 450px;
-	transition: .7s;
+}
+.f_pass{
+	margin: 30px 0px 0 0;
+	display: grid;
+	justify-content: center;
+	color: #999;
+}
+.prob{
+	display: grid;
+	justify-content: center;
+	color: #999;
+	margin-top: 5px;
 }
 a{
 	text-decoration: none;
-	font-size: 26px;
-	color: black;
+	text-align: center;
+	transition: .5s;
+}
+a:hover{
+	color: whitesmoke;
+	transition: .5s;
 }

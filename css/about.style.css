@@ -7,7 +7,7 @@
 .main{
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(rock.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(../image/rock.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-right: 5%;
@@ -46,41 +46,24 @@ nav ul li a{
 	color: whitesmoke;
 	font-size: 20px;
 }
-.home:hover{
-	font-size: 22px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.tour:hover{
+nav ul li a:hover{
 	font-size: 21px;
 	color: darkgrey;
-	text-decoration: underline;
 }
 .about{
-	font-size: 32px;
+	font-size: 21px;
 	margin-left: 0px;
 	margin-right: 0px;
 	color: darkgrey;
 	text-decoration: underline;
 }
-.account:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.gallery:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-}
-.content{
+/* .content{
 	margin-left: 250px;
 	margin-top: 400px;
-}
+} */
 .content h3{
-	margin-left: 550px;
-	margin-top: 450px;
+	margin-left: 40%;
+	margin-top: 25%;
 	font-size: 50px;
 	color: whitesmoke;
 }

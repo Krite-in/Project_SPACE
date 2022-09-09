@@ -8,7 +8,7 @@
 .main{
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(liftup4.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)) ,url(../image/liftup4.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-right: 5%;
@@ -28,12 +28,10 @@
 	width: 190px;
 	height: 30px;
 	cursor: pointer;
-	position: fixed;
 }
-nav{
-	position: fixed;
+nav ul{
 	flex: 1;
-	padding-left: 850px;
+	margin-left: 640px;	
 }
 nav ul li{
 	display: inline-block;
@@ -46,30 +44,14 @@ nav ul li a{
 	color: whitesmoke;
 	font-size: 20px;
 }
+nav ul li a:hover{
+	font-size: 21px;
+	color: darkgrey;
+}
 .tour{
-	font-size: 28px;
+	font-size: 21px;
 	margin-left: 0px;
 	margin-right: 0px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.gallery:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.about:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.account:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.home:hover{
-	font-size: 21px;
 	color: darkgrey;
 	text-decoration: underline;
 }
@@ -175,22 +157,22 @@ button{
 	color: darkgrey;
 }
 .card1{
-	background-image: url(mars4.jpg);
+	background-image: url(../image/mars4.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card2{
-	background-image: url(mars1.jpg);
+	background-image: url(../image/mars1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card3{
-	background-image: url(mars3.jpg);
+	background-image: url(../image/mars3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card4{
-	background-image: url(moon1.jpeg);
+	background-image: url(../image/moon1.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -201,22 +183,22 @@ button{
 	align-items: center;
 }
 .card5{
-	background-image: url(astro1.jpg);
+	background-image: url(../image/astro1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card6{
-	background-image: url(astro2.jpg);
+	background-image: url(../image/astro2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card7{
-	background-image: url(astro3.jpg);
+	background-image: url(../image/astro3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card8{
-	background-image: url(astro4.jpg);
+	background-image: url(../image/astro4.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -227,22 +209,22 @@ button{
 	align-items: center;
 }
 .card9{
-	background-image: url(deepspace1.jpg);
+	background-image: url(../image/deepspace1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card10{
-	background-image: url(deepspace2.jpg);
+	background-image: url(../image/deepspace2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card11{
-	background-image: url(deepspace4.jpg);
+	background-image: url(../image/deepspace4.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card12{
-	background-image: url(deepspace3.jpg);
+	background-image: url(../image/deepspace3.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -253,22 +235,22 @@ button{
 	align-items: center;
 }
 .card13{
-	background-image: url(deep1.jpg);
+	background-image: url(../image/deep1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card14{
-	background-image: url(deep2.jpg);
+	background-image: url(../image/deep2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card15{
-	background-image: url(deep3.jpg);
+	background-image: url(../image/deep3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .card16{
-	background-image: url(deep4.jpg);
+	background-image: url(../image/deep4.jpg);
 	background-size: cover;
 	background-position: center;
 }

@@ -7,7 +7,7 @@
 .main{
 	height: 100vh;
 	width: 100%;
-	background-image: url(bg.jpg);
+	background-image: url(../image/bg.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-right: 5%;
@@ -28,9 +28,9 @@
 	height: 30px;
 	cursor: pointer;
 }
-nav{
+nav ul{
 	flex: 1;
-	padding-left: 590px;	
+	margin-left: 640px;	
 }
 nav ul li{
 	display: inline-block;
@@ -43,30 +43,14 @@ nav ul li a{
 	color: whitesmoke;
 	font-size: 20px;
 }
+nav ul li a:hover{
+	font-size: 21px;
+	color: darkgrey;
+}
 .account{
-	font-size: 32px;
+	font-size: 21px;
 	margin-left: 0px;
 	margin-right: 0px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.tour:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.about:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.home:hover{
-	font-size: 21px;
-	color: darkgrey;
-	text-decoration: underline;
-}
-.gallery:hover{
-	font-size: 21px;
 	color: darkgrey;
 	text-decoration: underline;
 }
@@ -100,9 +84,10 @@ nav ul li a{
 	padding-left: 5px;
 	font-size: 18px;
 	color: darkgrey;
-}.form-box{
+}
+.form-box{
+	height: 520px;
 	width: 380px;
-	height: 380px;
 	position: relative;
 	margin: 2% 0 0 70%;
 	background: transparent;
@@ -110,22 +95,28 @@ nav ul li a{
 	border-radius: 30px;
 	padding: 5px;
 	overflow: hidden;
-	backdrop-filter: blur(5px)
+	backdrop-filter: blur(5px);
 }
 .form-box:hover{
 	transition: .5s;
-	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 25px 60px #393040;
+	backdrop-filter: blur(20px);
+}
+h2{
+	margin-top: 35px;
+	margin-left: 150px;
+	color: whitesmoke;
 }
 h4{
 	text-align: center;
-	margin-top: 60px;
-	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 	color: whitesmoke;
 }
 .main form{
 	width: 285px;
 	position: absolute;
-	margin-top: 50px;
+	top: 80px;
 	left: 50px;
 	transition: .7s;
 	color: whitesmoke;
@@ -152,8 +143,40 @@ button{
 	width: 110px;
 	height: 35px;
 	margin: 0 10px;
-	margin-top: 30px;
 	background:  #44303C;
 	border-radius: 30px;
 	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+.check-box{
+	margin: 30px 0px 30px 0;
+	color: whitesmoke;
+	font-size: 12px;
+}
+#imp{
+	color: red;
+	font-size: 16px;
+}
+a{
+	color: red;
+	cursor: pointer ;
+}
+hr{
+	background-color: whitesmoke;
+	width: 100%;
+	margin-top: 99%;
+}
+#conti{
+	font-size: 20px;
+	margin-top: 105%;
+	text-align: center;
+}
+#dpp{
+	text-decoration: none;
+	color: darkgrey;
+}
+#dpp:hover{
+	text-decoration: underline;
+	font-size: 22px;
 }
