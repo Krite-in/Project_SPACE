@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: monospace;
+	font-family: 'Space Mono', monospace;
 	color: whitesmoke;
 	transition: .5s ease-in-out;
 }
@@ -55,6 +55,10 @@ nav ul li a:hover{
 	font-size: 21px;
 	color: darkgrey;
 	text-decoration: underline;
+}
+.navbar--hidden{
+	opacity: 0;
+	cursor: progress;
 }
 .content{
 	margin-left: 29%;
@@ -157,26 +161,21 @@ button{
 	cursor: pointer;
 	margin: 10px 13px;
 	color: darkgrey;
+	background-size: cover;
+	background-position: center;
 }
 .card1{
 	background-image: url(../image/mars1.jpg);
-	background-size: cover;
-	background-position: center;
+	
 }
 .card2{
 	background-image: url(../image/mars2.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card3{
 	background-image: url(../image/mars3.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card4{
 	background-image: url(../image/mars1.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .row2{
 	margin-top: 550px;
@@ -186,23 +185,15 @@ button{
 }
 .card5{
 	background-image: url(../image/moon1.jpeg);
-	background-size: cover;
-	background-position: center;
 }
 .card6{
 	background-image: url(../image/moon2.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card7{
 	background-image: url(../image/moon3.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card8{
 	background-image: url(../image/moon4.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .row3{
 	margin-top: 550px;
@@ -212,23 +203,15 @@ button{
 }
 .card9{
 	background-image: url(../image/deepspace1.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card10{
 	background-image: url(../image/deepspace2.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card11{
 	background-image: url(../image/deepspace3.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card12{
 	background-image: url(../image/deepspace4.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .row4{
 	margin-top: 550px;
@@ -238,22 +221,14 @@ button{
 }
 .card13{
 	background-image: url(../image/liftup1.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card14{
 	background-image: url(../image/liftup2.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card15{
 	background-image: url(../image/liftup3.jpg);
-	background-size: cover;
-	background-position: center;
 }
 .card16{
 	background-image: url(../image/liftup4.jpg);
-	background-size: cover;
-	background-position: center;
 }
 
