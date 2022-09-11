@@ -4,6 +4,9 @@
 	font-family: monospace;
 	transition: .5s ease;
 }
+*::-webkit-scrollbar {
+    display: none;
+}
 .header{
     height: 100vh;
 	width: 100%;
@@ -68,7 +71,7 @@ nav ul li a:hover{
 .sec{
     height: 100vh;
 	width: 100%;
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/upcoming_launch.jpg);
+	background-image: url(../image/aboutusBG2.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-right: 5%;
@@ -166,6 +169,7 @@ a button:hover{
 	font-size: 18px;
 	color: darkgrey;
 }
+
 @keyframes down{
 	0% {
         transform: translateY(0px);

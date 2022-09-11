@@ -5,6 +5,9 @@
 	color: whitesmoke;
 	transition: .5s ease;
 }
+*::-webkit-scrollbar {
+    display: none;
+}
 .main{
 	height: 100vh;
 	width: 100%;
