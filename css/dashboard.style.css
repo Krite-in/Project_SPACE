@@ -59,14 +59,26 @@ nav ul li a:hover{
 	text-decoration: underline;
 }
 .content{
-	margin-left: 250px;
-	margin-top: 400px;
+	color: hsl(0, 0%, 96%);
+	font-size: 32px;
 }
-.content h3{
-	margin-left: 37%;
-	margin-top: 20%;
-	font-size: 50px;
-	color: whitesmoke;
+.content .user_name{
+	height: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	backdrop-filter: blur(15px);
+}
+.actions{
+	display: flex;
+}
+.actions *{
+	height: 200px;
+	width: 30%;
+	color: black;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px;
 }
 .links{
 	transform: rotate(-90deg);
@@ -100,8 +112,4 @@ nav ul li a:hover{
 	padding-left: 5px;
 	font-size: 18px;
 	color: darkgrey;
-}
-.rock{
-		margin-top: 42%;
-		margin-left: 33%;
 }
