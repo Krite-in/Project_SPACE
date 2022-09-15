@@ -82,7 +82,7 @@ nav ul li a:hover{
 .actions{
 	width: 80%;
 	display: flex;
-	margin-left: 200px;
+	margin-left: 15%;
 }
 .tab{
 	background-color: whitesmoke;
@@ -101,7 +101,7 @@ nav ul li a:hover{
 	font-size: 12px;
 }
 .tab img{
-	padding: 20px;
+	padding: 10px;
 	height: 55px;
 }
 .tab:hover{
@@ -156,4 +156,39 @@ nav ul li a:hover{
 
 label{
 	color: whitesmoke;
+	font-size: 18px;
+	padding-top: 10vh;
+}
+.form{
+	height: 480px;
+	width: 35%;
+	color: whitesmoke;
+	padding: 5px;
+	margin-left: 35%;
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+}
+.form input{
+	color: whitesmoke;
+	width: 80%;
+	font-size: 16px;
+	margin-top: 20px;
+	margin: 5px 0;
+	margin-bottom: 20px;
+	border-top: 0;
+	border-left:0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+button{
+	width: 50%;
+	padding: 10px 30px;
+	margin-left: 15%;
+	cursor: pointer;
+	display: block;
+	background:  darkgray;
+	border-radius: 30px;
+	color: black;
 }
