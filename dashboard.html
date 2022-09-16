@@ -30,14 +30,17 @@
 			<div class="actions">
 				<button class="tab">
 					<a href="#info">
-					<img src="image/id.svg" alt="">
-					<br>Personal info<br>
-					<div class="detail">Provide personal details and how we can reach you</div></a>
+						<img src="image/id.svg" alt="">
+						<br>Personal info<br>
+						<div class="detail">Provide personal details and how we can reach you</div>
+					</a>
 				</button>
 				<button class="tab">
-					<img src="image/login.svg" alt="">
-					<br>Login & security<br>
-					<div class="detail">Update your password and secure your account</div>
+					<a href="#security">
+						<img src="image/login.svg" alt="">
+						<br>Login & security<br>
+						<div class="detail">Update your password and secure your account</div>
+					</a>
 				</button>
 				<button class="tab">
 					<img src="image/payment.svg" alt="">
@@ -65,30 +68,46 @@
 		</div>
 	</div>
 	<div class="sec" id="info">
-		<div>
-			<form action="submit" class="form --info">
-				<label for="Legal Name">Legal Name</label><br>
-					<input type="text" placeholder="Name"><br>
-				<label for="Gender">Gender</label><br>
-					<input type="text" placeholder="Gender"><br>
-				<label for="DOB">Date of Birth</label><br>
-					<input type="date" placeholder="**/**/****"><br>
+		<div class="form">
+			<form action="submit" class="--info">
+				<label for="Name">Name</label><br>
+					<input type="text" placeholder="Full Name"><br>
+				<label for="gender">Gender</label><br>
+					<select name="gender" placeholder="Other" >
+						<option value="other">Other</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select><br><br>
 				<label for="email">Email address</label><br>
 					<input type="Email" placeholder="Email"><br>
 				<label for="phone">Phone number</label><br>
-					<input type="phone" placeholder="Phone number" value="+91 8084656751"><br>
-				<label for="gov_id">Government ID</label><br>
-					<input type="file" placeholder="ID"><br>
+					<input type="phone" placeholder="Phone number"><br>
 				<label for="address">Address</label><br>
 					<input type="address" placeholder="Address"><br>
 				<label for="emergency">Emergency Contact</label><br>
 					<input type="text" placeholder="Emergency Contact"><br>
-				<button class="btn">Edit</button>
+				<label for="gov_id">Government ID</label><br>
+					<input type="text" placeholder="ID Number"><br>
+				<button type="submit" class="btn">Save</button>
 			</form>
 		</div>
 	</div>
 	<div class="sec" id="security">
-		security
+		<div class="form">
+			<form action="submit" class="--info">
+				<label for="ID">ID</label><br>
+					<input type="text" placeholder="User ID"><br>
+				<label for="pass">Current Password</label><br>
+					<input type="password" placeholder="CurrentPass"><br>
+				<label for="otp">OTP</label><br>
+					<input type="number" placeholder="OTP"><br>
+				<label for="newpass">New Password</label><br>
+					<input type="password" placeholder="New Password"><br>
+					<label for="confirmpass">Confirm Password</label><br>
+					<input type="password" placeholder="Confirm Password"><br>
+				<button type="submit" class="btn">Save</button>
+			</form>
+		</div>
 	</div>
 	<div class="sec" id="payment">
 		payment
