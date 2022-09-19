@@ -210,10 +210,13 @@ button{
 	margin-top: 2%;
 }
 .--payment{
-	height: 70vh;
+	height: 75vh;
 	width: 161vh;
-	margin-left: 15vh;
+	margin-left: 17vh;
 	margin-top: -7vh;
+	padding: 4vh;
+	font-size: 28px;
+	overflow: hidden;
 }
 .up{
 	position: fixed;
@@ -224,4 +227,17 @@ button{
 	top: 80%;
 	border-radius: 50%;
 	z-index: 1;
+}
+.pay_info{
+	background-color: #999;
+	height: inherit;
+	width: 100%;
+	overflow: scroll;
+	margin-top: 1vh;
+	font-size: 18px;
+	margin-bottom: 1vh;
+}
+table{
+	width: 100%;
+	margin-top: 2vh;
 }
