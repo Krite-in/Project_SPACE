@@ -206,3 +206,16 @@ button{
 	margin-top: 0%;
 	margin-bottom: 20px;
 }
+.--security{
+	margin-top: 2%;
+}
+.btn{
+	background-color: whitesmoke;
+	width: 4%;
+	height: 8%;
+	position: fixed;
+	left: 78%;
+	top: 80%;
+	border-radius: 50%;
+	z-index: 1;
+}

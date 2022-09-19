@@ -43,26 +43,34 @@
 					</a>
 				</button>
 				<button class="tab">
-					<img src="image/payment.svg" alt="">
-					<br>Payments & payouts<br>
-					<div class="detail">Review payments, payouts, and taxes</div>
+					<a href="#payment">
+						<img src="image/payment.svg" alt="">
+						<br>Payments & payouts<br>
+						<div class="detail">Review payments, payouts, and taxes</div>
+					</a>
 				</button>
 			</div>
 			<div class="actions">
 				<button class="tab">
-					<img src="image/work.svg" alt="">
-					<br>Travel for work<br>
-					<div class="detail">Add a work email for business trip benefits</div>
+					<a href="#work">
+						<img src="image/work.svg" alt="">
+						<br>Travel for work<br>
+						<div class="detail">Add a work email for business trip benefits</div>
+					</a>
 				</button>
 				<button class="tab">
-					<img src="image/trip.png" alt="">
-					<br>Book a Trip<br>
-					<div class="detail">Book your next trip to space</div>
+					<a href="#trip">
+						<img src="image/trip.png" alt="">
+						<br>Book a Trip<br>
+						<div class="detail">Book your next trip to space</div>
+					</a>
 				</button>
 				<button class="tab">
-					<img src="image/write.svg" alt="">
-					<br>Write a Blog<br>
-					<div class="detail">Provide you expriance by writing a blog post</div>
+					<a href="#blog">
+						<img src="image/write.svg" alt="">
+						<br>Write a Blog<br>
+						<div class="detail">Provide you expriance by writing a blog post</div>
+					</a>
 				</button>
 			</div>
 		</div>
@@ -83,7 +91,7 @@
 				<label for="phone">Phone number</label><br>
 					<input type="phone" placeholder="Phone number"><br>
 				<label for="address">Address</label><br>
-					<input type="address" placeholder="Address"><br>
+					<input type="text" placeholder="Address"><br>
 				<label for="emergency">Emergency Contact</label><br>
 					<input type="text" placeholder="Emergency Contact"><br>
 				<label for="gov_id">Government ID</label><br>
@@ -93,7 +101,7 @@
 		</div>
 	</div>
 	<div class="sec" id="security">
-		<div class="form">
+		<div class="form --security">
 			<form action="submit" class="--info">
 				<label for="ID">ID</label><br>
 					<input type="text" placeholder="User ID"><br>
@@ -108,21 +116,87 @@
 		</div>
 	</div>
 	<div class="sec" id="payment">
-		payment
+		<div class="sec" id="security">
+			<div class="form --security">
+				<form action="submit" class="--info">
+					<label for="ID">ID</label><br>
+						<input type="text" placeholder="User ID"><br>
+					<label for="pass">Current Password</label><br>
+						<input type="password" placeholder="CurrentPass"><br>
+					<label for="newpass">New Password</label><br>
+						<input type="password" placeholder="New Password"><br>
+						<label for="confirmpass">Confirm Password</label><br>
+						<input type="password" placeholder="Confirm Password"><br>
+					<button type="submit" class="btn">Save</button>
+				</form>
+			</div>
+		</div>
 	</div>
 	<div class="sec" id="work">
-		work
+		<div class="sec" id="security">
+			<div class="form --security">
+				<form action="submit" class="--info">
+					<label for="ID">ID</label><br>
+						<input type="text" placeholder="User ID"><br>
+					<label for="pass">Current Password</label><br>
+						<input type="password" placeholder="CurrentPass"><br>
+					<label for="newpass">New Password</label><br>
+						<input type="password" placeholder="New Password"><br>
+						<label for="confirmpass">Confirm Password</label><br>
+						<input type="password" placeholder="Confirm Password"><br>
+					<button type="submit" class="btn">Save</button>
+				</form>
+			</div>
+		</div>
 	</div>
 	<div class="sec" id="trip">
-		trip
+		<div class="sec" id="security">
+			<div class="form --security">
+				<form action="submit" class="--info">
+					<label for="ID">ID</label><br>
+						<input type="text" placeholder="User ID"><br>
+					<label for="pass">Current Password</label><br>
+						<input type="password" placeholder="CurrentPass"><br>
+					<label for="newpass">New Password</label><br>
+						<input type="password" placeholder="New Password"><br>
+						<label for="confirmpass">Confirm Password</label><br>
+						<input type="password" placeholder="Confirm Password"><br>
+					<button type="submit" class="btn">Save</button>
+				</form>
+			</div>
+		</div>
 	</div>
 	<div class="sec" id="blog">
-		blog
+		<div class="sec" id="security">
+			<div class="form --security">
+				<form action="submit" class="--info">
+					<label for="ID">ID</label><br>
+						<input type="text" placeholder="User ID"><br>
+					<label for="pass">Current Password</label><br>
+						<input type="password" placeholder="CurrentPass"><br>
+					<label for="newpass">New Password</label><br>
+						<input type="password" placeholder="New Password"><br>
+						<label for="confirmpass">Confirm Password</label><br>
+						<input type="password" placeholder="Confirm Password"><br>
+					<button type="submit" class="btn">Save</button>
+				</form>
+			</div>
+		</div>
 	</div>
 	<div class="links">
 		<a href="#" class="mata">Mataverse</a>
 		<a href="#" class="unreal">Unreal</a>
 		<a href="#" class="deeplink">DeepLink</a>
 	</div>
+	<div >
+		<button class="btn" onclick="scrollWin()">
+		</button>
+	</div>
+	<script>
+		function scrollWin() {
+		  window.scrollTo(0, 0);
+		}
+		
+		</script>
 </body>
 </html>
