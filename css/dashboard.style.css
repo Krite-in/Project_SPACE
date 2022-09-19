@@ -209,6 +209,12 @@ button{
 .--security{
 	margin-top: 2%;
 }
+.--payment{
+	height: 70vh;
+	width: 161vh;
+	margin-left: 15vh;
+	margin-top: -7vh;
+}
 .up{
 	position: fixed;
 	background-color: whitesmoke;
